@@ -1,0 +1,81 @@
+# Equity Valuation and AI-Based Portfolio Analysis
+
+### Project Overview
+
+This project combines traditional financial analysis with Artificial Intelligence (AI) and Machine Learning to explore better investment decision-making approaches.
+
+The project is divided into two main parts.
+
+### Part A: Fundamental Valuation of Square Pharmaceuticals PLC
+
+This part evaluates Square Pharmaceuticals PLC, one of the leading pharmaceutical companies in Bangladesh.
+
+**Key Activities:**
+- Analysis of five years of financial statements.
+- Calculation of Cost of Equity, Cost of Debt and WACC.
+- Free Cash Flow to Firm (FCFF) valuation.
+- Free Cash Flow to Equity (FCFE) valuation.
+- Dividend Discount Model (DDM).
+- DuPont Analysis.
+
+**Key Finding:** FCFF and FCFE estimated the fair share values at Tk 258.57 and Tk 245.80, respectively, compared with the market price of Tk 218.80.
+
+### Part B: AI-Based Stock Price Prediction and Portfolio Optimization
+
+This part uses four Indian pharmaceutical companies:
+
+- Sun Pharmaceutical Industries
+- Cipla
+- Mankind Pharma
+- Torrent Pharmaceuticals
+
+Nine Machine Learning and Deep Learning models were tested to predict future stock prices.
+
+**Key Activities:**
+- Historical stock price data collection.
+- Data denoising and preprocessing.
+- Model training and hyperparameter tuning.
+- Walk-forward validation.
+- AI-based portfolio construction.
+- Markowitz Mean-Variance Portfolio Optimization.
+- Comparison of portfolio performance using returns, risk and Sharpe Ratio.
+
+**Key Finding:** The traditional Markowitz portfolio provided more reliable results than the AI-based portfolio in this study.
+
+### Tools and Technologies
+
+- Python
+- Jupyter Notebook
+- Pandas and NumPy
+- Machine Learning
+- Deep Learning
+- TensorFlow / Keras
+- XGBoost
+- LightGBM
+- Optuna
+- Yahoo Finance Data
+- Financial Valuation Models
+
+### Project Structure
+
+```text
+Equity-Valuation-AI-Portfolio-Analysis/
+│
+├── README.md
+│
+├── Report/
+│   └── Project_Report.pdf
+│
+└── Notebooks/
+    ├── Price_Data_Download.ipynb
+    ├── Price_Prediction_Models.ipynb
+    └── Portfolio_Optimization.ipynb
+```
+
+### Conclusion
+
+This project demonstrates how traditional financial valuation techniques and modern AI-based approaches can be combined to support informed investment decisions. It also highlights the importance of model validation and risk assessment when applying AI to financial markets.
+
+### Disclaimer
+
+This project is for academic and research purposes only. The analysis and model predictions do not guarantee future stock market performance or investment returns.
